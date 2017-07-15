@@ -17,11 +17,8 @@
 		#box{
 			min-width: 300px;
 			max-width: 750px;
-
-			/*height: 30000px;*/
-			/*background: #fff;*/
 			margin: 0 auto;
-			/*border: 2px solid #ccc;*/
+			position: relative;
 		}
 		.banner_img img{
 			width: 100%;
@@ -45,7 +42,6 @@
 			display: inline-block;
 		}
 		.server_top img{
-			/*width:  10rem;*/
 			margin-top: -22px;
 		}
 		.server_bottom{
@@ -68,7 +64,6 @@
 		}
 		.my_img{
 			width: 10rem;
-			/*height: 91px;*/
 		}
 
 		.server_bottom h4,.server_bottom p{
@@ -81,6 +76,7 @@
 		.about{
 			width: 100%;
 			background-color: #f5f4ef;
+
 		}
 		.about .about_img{
 
@@ -121,17 +117,21 @@
 		}
 		
 
-		.about_call{
-			width: 100%;
-			overflow: hidden;
-		}
+	
+	    .about_call{
+	    	width: 100%;
+	    }
 		.about_call ul{
 			width: 100%;
-			overflow: hidden;
+			position: fixed;
+			left: 0;
+			bottom: -20px;
 		}
 		.about_call ul li{
+			
 			width: 50%;
 			float: left;
+
 		}
 		.about_call ul li img{
 			width: 70%;
@@ -165,7 +165,6 @@
        }
 	.bg_sz{
 	    width: 100%;
-	    /*height: 10rem;*/
 	    background: url(images/bg.png) 0 0 no-repeat;
 	    -webkit-background-size: 100%;
 	    background-size: 100%;
@@ -173,7 +172,6 @@
 	    justify-content: space-between;
 	    align-items: center;
 	    text-align: center;
-	    /*overflow: hidden;*/
 	    color: #fff;
 	}
 
@@ -186,30 +184,11 @@
 	}
 	.bg_sz div img{
 		width: 3rem;
-
-
 	}
-	/*.bg_sz .bg_l{
-
-		height: 100%;
-		/*line-height: 100%;*/
-
-	}
-	/*.bg_sz .bg_c{
-
-		height: 100%;
-	}*/
-/*	.bg_sz .bg_b{
-
-		height: 100%;
-	}*/
 	
-
-
 	.footer{
-		/*background-color: #ccc;*/
+
 		width: 100%;
-		/*height: 1000px;*/
 
 	}
 	.footer .footer_top{
@@ -236,7 +215,6 @@
 
 	.footer_bottom{
 		width: 100%;
-		/*height: 150px;*/
 		background-color: #21272d;
 		display: flex;
 		color: #666;
@@ -247,13 +225,6 @@
 		line-height: 30px;
 		box-sizing:border-box;
 
-	}
-	.footer_bottom div:first-child{
-		
-	}
-
-	.footer_bottom div:last-child{
-	
 	}
 	</style>
 </head>
@@ -330,16 +301,13 @@
 
 			
 			</div>
-			<div class="about_call">
-				<ul>
-					<li><a target="_blank" href="tel:13502520162"><img src="images/dianhua.png" alt=""></a></li>
-					<li><a target="_blank" href="images/me.png" onclick="show()" class="call_wx"><img src="images/weixinhao.png" alt=""></a></li>
-				</ul>
-			</div>
+		
 		
 		</div>
 
 		</div>
+
+
 
 <!-- 我的作品 -->
 		<div class="work">
@@ -409,6 +377,14 @@
 					<p>1834183435</p>
 				</div>
 			</div>
+		</div>
+
+		<!-- 联系我 -->
+		<div class="about_call">
+				<ul>
+					<li><a target="_blank" href="tel:13502520162"><img src="images/dianhua.png" alt=""></a></li>
+					<li><a target="_blank" href="images/me.png" class="call_wx"><img src="images/weixinhao.png" alt=""></a></li>
+				</ul>
 		</div>
 	</div>
 </body>
